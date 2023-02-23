@@ -1,0 +1,38 @@
+/* css reset */
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('./assets/images/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 6.25rem;
+    padding-left: 7.625rem;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFF;
+    font-family: 'Poppins';
+}
+span{
+    font-size: 28px;
+    color: #FFF;
+    font-family: 'Montserrat';
+}
+a{
+    color: #FFF;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, #243B55, #141E30);
+    padding: 1rem;
+    border-radius: 10px;
+}   
