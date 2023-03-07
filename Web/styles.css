@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    gap: 1rem;
+    background: linear-gradient(to bottom, #232526, #000000 100%);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 12.5rem;
+
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: #71d3fd;
+    position: absolute; top: 1.7rem;
+    font-family: 'Poppins';
+}
+
+span{
+    font-size: 23px;
+    font-weight: 900;
+    color: #ffffd6;
+    font-family: 'Poppins';
+}
+
+b{
+    color: #ffffd6;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, #fc883b, #fc723b);
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
+
+.barraColorida {
+    background: linear-gradient(to right,#5433FF,#20BDFF,#A5FECB 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+  }
+
+.barraSuperior {
+    background-color: #232526;
+    opacity: 80%;
+    position: fixed;
+    top: 3px;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: left;   
+    font-size: 25px;
+    font-weight: 900;
+    color: #71d3fd;
+    font-family: 'Poppins';
+    padding-left: 45px;    
+    
+  }
+
+  .menu{
+    
+    list-style:none;
+    float:left;
+    background-color: #232526;
+    position: fixed;
+    top: 3px;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: left;   
+    font-size: 25px;
+    font-weight: 900;
+    color: #71d3fd;
+    font-family: 'Poppins';
+    padding-left: 45px;   
+    
+    }
+    .menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+    
+    .menu li a:hover{
+
+    background:#333;
+    color:#fff;
+    box-shadow:0 3px 10px 0 #CCC;
+    box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+
+    }
+
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+        }
+
+  
